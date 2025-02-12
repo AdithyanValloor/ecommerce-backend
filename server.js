@@ -10,7 +10,9 @@ connectDB()
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin:'https://chimerical-travesseiro-acfb77.netlify.app'
+}));
 
 const PORT = process.env.PORT || 3000
 
