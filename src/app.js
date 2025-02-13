@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json());
 app.use(cors(
     {
-    origin:['http://localhost:5174', 'https://chimerical-travesseiro-acfb77.netlify.app']
+    origin:['https://chimerical-travesseiro-acfb77.netlify.app', 'http://localhost:5174']
     }
 ));
 
